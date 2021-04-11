@@ -1,5 +1,6 @@
 1. 화면 전환 후 데이터를 가져온 로직 정리
 1. Signin Activity:
+
    class SignInActivity : AppCompatActivity() {
     private lateinit var binding:ActivitySignInBinding
 
@@ -25,6 +26,7 @@
         }
     }
     }
+
 
 
     
