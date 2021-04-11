@@ -2,7 +2,8 @@
 1. Signin Activity:
 
 class SignInActivity : AppCompatActivity() {
-     lateinit var binding:ActivitySignInBinding
+    private lateinit var binding:ActivitySignInBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding=ActivitySignInBinding.inflate(layoutInflater)
@@ -25,6 +26,7 @@ class SignInActivity : AppCompatActivity() {
         }
     }
     }
+
     
     2. Signup Activity
     class SignUpActivity : AppCompatActivity() {
